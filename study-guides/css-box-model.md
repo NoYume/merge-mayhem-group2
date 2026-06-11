@@ -1,1 +1,3 @@
 # CSS Box Model
+
+Some web browsers add default padding, border, and margin sizes. To ensure that elements appear in the exact same positioning on all browsers, developers often use the universal selector, `*`, to reset these property values to `0`.
