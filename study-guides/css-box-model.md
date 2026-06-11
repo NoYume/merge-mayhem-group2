@@ -1,5 +1,48 @@
 # CSS Box Model
 
+There are a variety of ways to customize the margin, border, and padding size based on the top, bottom, left, and right edges. Let's take a look at a few examples in code:
+
+```css
+div {
+  /* This: */
+  margin: 20px;
+  /* Is the same as: */
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+  /* This: */
+  padding: 10px 20px;
+  /* Is the same as: */
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+h1 {
+  /* This: */
+  margin: 20px 10px 5px;
+  /* Is the same as: */
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+h2 {
+  /* This: */
+  margin: 10px 20px;
+  /* Is the same as: */
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+```
+
 :bangbang: **Tip**: For sizing, you can use a variety of units. The popular units are `em`, `%`, or `px`. Check out MDN Docs on [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units).
 
 You can learn more about the [CSS Box Model on MDN Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model).
+Some web browsers add default padding, border, and margin sizes. To ensure that elements appear in the exact same positioning on all browsers, developers often use the universal selector, `*`, to reset these property values to `0`.
