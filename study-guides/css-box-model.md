@@ -2,8 +2,6 @@
 
 Some web browsers add default padding, border, and margin sizes. To ensure that elements appear in the exact same positioning on all browsers, developers often use the universal selector, `*`, to reset these property values to `0`.
 
-Some web browsers add default padding, border, and margin sizes. To ensure that elements appear in the exact same positioning on all browsers, developers often use the universal selector, `*`, to reset these property values to `0`.
-
 There are a variety of ways to customize the margin, border, and padding size based on the top, bottom, left, and right edges. Let's take a look at a few examples in code:
 
 ```css
